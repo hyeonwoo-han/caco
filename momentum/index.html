@@ -11,41 +11,44 @@
 <body>
     <!--form 안에 input 있으면 enter 누르거나 button 누르면 자동으로 submit하고 새로고침-->
     <!--input 본인이름 입력-->
-    <form id="login-form">
-        <input 
-        required
-        maxlength="15"
-        type="text"
-        placeholder="What is your name?">
-        <button>Log in</button>
+    <div id="center">
+        <form id="login-form">
+            <input 
+            required
+            maxlength="15"
+            type="text"
+            placeholder="What is your name?">
+            <button>Log in</button>
+            <br>
+            <!--<a href="https://cacoya.tistory.com/" target="_blank">click here to move CACO's web site!!</a>-->
+        </form>
+
+        <!--현재시각-->
+        <h2 id="clock">00:00:00</h2>
+
+        <!--localStorage 저장된 이름에 인사-->
+        <h1 id="hello" class="hidden"></h1>
+
+        <!--todo-list 작성-->
+        <form id="todo-form">
+            <input type="text" placeholder="TODO and Enter">
+        </form>
+        <ul id="todo-list">
+            <!--li, btn-->
+        </ul>
+
+        <!--10개 명언 랜덤 출력-->
+        <div id="quote">
+            <span></span>
+            <br>
+            <span></span>
+        </div>
         <br>
-        <!--<a href="https://cacoya.tistory.com/" target="_blank">click here to move CACO's web site!!</a>-->
-    </form>
-
-    <!--현재시각-->
-    <h2 id="clock">00:00:00</h2>
-
-    <!--localStorage 저장된 이름에 인사-->
-    <h1 id="hello" class="hidden"></h1>
-
-    <!--todo-list 작성-->
-    <form id="todo-form">
-        <input type="text" placeholder="TODO and Enter">
-    </form>
-    <ul id="todo-list">
-        <!--li, btn-->
-    </ul>
-
-    <!--10개 명언 랜덤 출력-->
-    <div id="quote">
-        <span></span>
-        <span></span>
-    </div>
-    <br>
-    <div id="weather">
-        <span></span>
-        <span></span>
-        <span></span>
+        <div id="weather">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </div>
 
     <!--source-->

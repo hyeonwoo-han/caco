@@ -1,13 +1,46 @@
 body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     background-color:black;
     color: rgb(255, 255, 255);
     background-size: 100%;
+}
+
+div#center{
+    position: absolute;
 }
 
 .hidden{
     display: none;
 }
 
-h1#hello{
-    color:rgb(255, 255, 255);
+/*
+form#login-form{
+    
+    text-align : center;
 }
+
+h2#clock{
+    text-align : center;
+}
+
+h1#hello{
+    text-align : center;
+}
+
+form#todo-form{
+    text-align : center;
+}
+
+ul#todo-list{
+    text-align : center;
+}
+
+div#quote{
+    text-align : center;
+}
+
+div#weather{
+    text-align : center;
+}
+
+*/
