@@ -4,7 +4,7 @@ const chosenImg = imgs[Math.floor(Math.random() * imgs.length)];
 
 const elementBody = document.querySelector("body");
 //css 프로퍼티를 js에 사용할땐 -(hypen) 대신 camel 표기법 사용
-elementBody.style.backgroundImage = `url('/Users/caco/Documents/momentum/img/${chosenImg}')`;
+elementBody.style.backgroundImage = `url('img/${chosenImg}')`;
 document.body.style.opacity = '0.8';
 
 
