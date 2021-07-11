@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Momentum App</title>
+</head>
+
+<body>
+    <!--form 안에 input 있으면 enter 누르거나 button 누르면 자동으로 submit하고 새로고침-->
+    <!--input 본인이름 입력-->
+    <form id="login-form">
+        <input 
+        required
+        maxlength="15"
+        type="text"
+        placeholder="What is your name?">
+        <button>Log in</button>
+        <br>
+        <a href="https://cacoya.tistory.com/" target="_blank">click here to move CACO's web site!!</a>
+    </form>
+
+    <!--현재시각-->
+    <h2 id="clock">00:00:00</h2>
+
+    <!--localStorage 저장된 이름에 인사-->
+    <h1 id="hello" class="hidden"></h1>
+
+    <!--todo-list 작성-->
+    <form id="todo-form">
+        <input type="text" placeholder="TODO and Enter">
+    </form>
+    <ul id="todo-list">
+        <!--li, btn-->
+    </ul>
+
+    <!--10개 명언 랜덤 출력-->
+    <div id="quote">
+        <span></span>
+        <span></span>
+    </div>
+    <br>
+    <div id="weather">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <!--source-->
+    <script src="js/app.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+</html>
