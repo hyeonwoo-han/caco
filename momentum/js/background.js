@@ -7,10 +7,12 @@ elementBody.style.backgroundImage = `url('img/${chosenImg}')`;
 //document.body.style.opacity = '0.8';
 
 // body vertical center
-const idCenter = document.querySelector("div#center");
-const height = window.innerHeight;    //number
-const verticalCenter = height / 2;
-idCenter.style = `position : relative; top : ${verticalCenter}px; text-align : center;`;
+//const idCenter = document.querySelector("div#center");
+//const height = window.innerHeight;    //number
+//const width = window.innerWidth;
+//const heightCenter = height / 2;
+//const widthCenter = width / 2;
+//idCenter.style = `position : absolute; top : ${heightCenter}px; left : ${widthCenter}px; transform : translate(-50%, -50%)`;
 
 
 
