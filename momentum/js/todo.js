@@ -31,7 +31,7 @@ function removeTodo(e){
 //print todo-list
 function paintTodo(newTodoObj){
     // create li
-    const li = document.createElement("li");    
+    const li = document.createElement("li");
     li.id = newTodoObj.id;
     // create span under li
     const span = document.createElement("span");
@@ -61,8 +61,8 @@ function handleTodoSubmit(e){
         id : Date.now(),
     }
     // todo 출력
-    paintTodo(newTodoObj);    
-    // todo를 원래 배열에 저장 
+    paintTodo(newTodoObj);
+    // todo를 원래 배열에 저장
     todoArray.push(newTodoObj);
     saveTodo();
 }
