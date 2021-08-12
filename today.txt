@@ -1,0 +1,1 @@
+오늘은 git의 remote, pull, push, fetch를 익혔다 - 8.12 새벽
